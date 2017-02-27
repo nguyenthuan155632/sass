@@ -1,0 +1,13 @@
+// Place all the styles related to the Profiles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@each $flag in USA, EUR, JPN 
+
+  a.#{$flag} 
+    display:inline-block
+    overflow:hidden
+    width: 0
+    height: 11px
+    padding-left: 16px
+    background: url('http://res.cloudinary.com/mrengy/image/upload/v1470163121/#{$flag}.gif') no-repeat
